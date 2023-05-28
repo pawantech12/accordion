@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ Section</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- google fonts link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <h3>Frequently Asked Question</h3>
+        <div class="accordion-container">
+            <div class="accordion">
+                <div class="question">
+                    <h4>What is a Data Structure</h4>
+                    <div class="icon">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                </div>
+                <div class="answer">
+                    <p>A data structure is a storage format that defines the way data is stored, organized, and manipulated.Some popular data structures are Arrays, Trees, and Graphs.</p>
+                </div>
+            </div>
+            <div class="accordion">
+                <div class="question">
+                    <h4>What is an Array</h4>
+                    <div class="icon">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                </div>
+                <div class="answer">
+                    <p>An array is commonly referred to as a collection of items stored at contiguous memory locations.Items stored are of the same type.</p>
+                </div>
+            </div>
+            <div class="accordion">
+                <div class="question">
+                    <h4>What is Linked List</h4>
+                    <div class="icon">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                </div>
+                <div class="answer">
+                    <p>Like an array, a linked list refers to a linear data structure in which the elements are not necessarily stored in a contiguous manner.It is basically a sequence of nodes, each node points towards the next node forming a chain-like structure.</p>
+                </div>
+            </div>
+            <div class="accordion">
+                <div class="question">
+                    <h4>What is Stack</h4>
+                    <div class="icon">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                </div>
+                <div class="answer">
+                    <p>A stack refers to a linear data structure performing operations in a LIFO (Last In First Out) order.In a stack, elements can only be accessed, starting from the topmost to the bottom element.</p>
+                </div>
+            </div>
+            <div class="accordion">
+                <div class="question">
+                    <h4>What is OOPs Concept</h4>
+                    <div class="icon">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                </div>
+                <div class="answer">
+                    <p>OOPs stands for Object-Oriented Programming System, a paradigm that provides concepts such as objects, classes, and inheritance.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        let accordions = document.getElementsByClassName("accordion");
+        let icon = document.querySelectorAll(".icon");
+        let answer = document.querySelectorAll(".answer");
+
+        for(let i=0; i<accordions.length; i++) {
+            accordions[i].addEventListener('click',() => {
+                if(icon[i].classList.contains("active")){
+                    icon[i].classList.remove("active");
+                    answer[i].style.maxHeight = null ;
+                    answer[i].style.marginTop = '0rem';
+                }else{
+                    icon[i].classList.add("active");
+                    answer[i].style.maxHeight = answer[i].scrollHeight + 'px';
+                    answer[i].style.marginTop = '1rem';
+                }
+            })
+        }
+        // console.log(accordions);
+        // accordions.forEach( accordion => {
+            
+        //     const icon = document.querySelector(".icon");
+        //     const answer = document.querySelector(".answer");
+        //     accordion.addEventListener("click",() => {
+        //         if(icon.classList.contains("active")){
+        //             icon.classList.remove("active");
+        //             answer.style.maxHeight = null ;
+        //             answer.style.marginTop = '0rem';
+        //         }else{
+        //             icon.classList.add("active");
+        //             answer.style.maxHeight = answer.scrollHeight + 'px';
+        //             answer.style.marginTop = '1rem';
+        //         }
+        //     })
+        // })
+    </script>
+
+</body>
+</html>
