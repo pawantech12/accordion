@@ -3,7 +3,7 @@
   ![GitHub repo size](https://img.shields.io/github/repo-size/pawantech12/accordion)
   ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/eduhome?style=social)
   ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/eduhome?style=social)
-  [![Instagram Follow](https://img.shields.io/instagram/follow/codewithpawan?style=social)]([https://www.instagram.com/codewithpawan/])
+  ![Instagram Follow](https://img.shields.io/instagram/follow/codewithpawan?style=social)([https://www.instagram.com/codewithpawan/])
 
   <br />
   <br />
