@@ -19,7 +19,7 @@
 
 ### Demo Screeshots
 
-![Accordion Desktop Demo](preview.jpg)
+![Accordion Desktop Demo](./preview.jpg)
 
 ### Prerequisites
 
