@@ -1,13 +1,13 @@
-<div align="center">
+<div>
   
   ![GitHub repo size](https://img.shields.io/github/repo-size/pawantech12/accordion)
-  ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/eduhome?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/eduhome?style=social)
+  ![GitHub stars](https://img.shields.io/github/stars/pawantech12/accordion?style=social)
+  ![GitHub forks](https://img.shields.io/github/forks/pawantech12/accordion?style=social)
 
   <br />
   <br />
 
-  <h2 align="center">Simple Accordion</h2>
+  <h2>Simple Accordion</h2>
 
   Simple Responsive Accordion using HTML, CSS, and JavaScript.
 
